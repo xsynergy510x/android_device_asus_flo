@@ -40,3 +40,8 @@ $(call inherit-product, device/asus/flo/device-common.mk)
 $(call inherit-product-if-exists, vendor/asus/flo/device-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS := device/asus/flo/overlay
+
+# Prebuilt APKs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/apks/AdAway.apk:system/app/AdAway/AdAway.apk \
+    $(LOCAL_PATH)/apks/NovaLauncher.apk:system/priv-app/NovaLauncher/NovaLauncher.apk
