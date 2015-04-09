@@ -298,6 +298,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     power.flo
 
+# My custom APKs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/apks/AdAway-release_Build-Mar.21.2015.apk:system/app/AdAway/AdAway.apk \
+    $(LOCAL_PATH)/apks/NovaLauncher3.3.apk:system/priv-app/NovaLauncher/NovaLauncher.apk
+
 # NFC packages
 PRODUCT_PACKAGES += \
     libnfc-nci \
