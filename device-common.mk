@@ -296,8 +296,8 @@ PRODUCT_PACKAGES += \
 
 # My custom APKs
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/apks/AdAway-release_Build-Mar.21.2015.apk:system/app/AdAway/AdAway.apk \
-    $(LOCAL_PATH)/apks/NovaLauncher3.3.apk:system/priv-app/NovaLauncher/NovaLauncher.apk
+    $(LOCAL_PATH)/apks/AdAway-release_Build-Apr.09.2015.apk:system/app/AdAway/AdAway.apk \
+    $(LOCAL_PATH)/apks/NovaLauncher_4.0.apk:system/priv-app/NovaLauncher/NovaLauncher.apk
 
  # System Properties Optimizations
  PRODUCT_PROPERTY_OVERRIDES += \
